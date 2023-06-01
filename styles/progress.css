@@ -1,0 +1,80 @@
+
+.progressbar {
+	width: 75%;
+	background-color: #711c91;
+	border-radius: 13px;
+	/* (height of inner div) / 2 + padding */
+	padding: 5px;
+}
+
+.progress10 {
+	background-color: #ea00d9;
+	width: 10%;
+	/* Adjust with JavaScript */
+	height: 20px;
+	border-radius: 10px;
+}
+
+.progress20 {
+	background-color: #ea00d9;
+	width: 20%;
+	/* Adjust with JavaScript */
+	height: 20px;
+	border-radius: 10px;
+}
+
+.progress30 {
+	background-color: #ea00d9;
+	width: 30%;
+	/* Adjust with JavaScript */
+	height: 20px;
+	border-radius: 10px;
+}
+
+.progress40 {
+	background-color: #ea00d9;
+	width: 40%;
+	/* Adjust with JavaScript */
+	height: 20px;
+	border-radius: 10px;
+}
+
+.progress50 {
+	background-color: #ea00d9;
+	width: 50%;
+	/* Adjust with JavaScript */
+	height: 20px;
+	border-radius: 10px;
+}
+
+.progress60 {
+	background-color: #ea00d9;
+	width: 60%;
+	/* Adjust with JavaScript */
+	height: 20px;
+	border-radius: 10px;
+}
+
+.progress70 {
+	background-color: #ea00d9;
+	width: 70%;
+	/* Adjust with JavaScript */
+	height: 20px;
+	border-radius: 10px;
+}
+
+.progress80 {
+	background-color: #ea00d9;
+	width: 80%;
+	/* Adjust with JavaScript */
+	height: 20px;
+	border-radius: 10px;
+}
+
+.progress90 {
+	background-color: #ea00d9;
+	width: 90%;
+	/* Adjust with JavaScript */
+	height: 20px;
+	border-radius: 10px;
+}
