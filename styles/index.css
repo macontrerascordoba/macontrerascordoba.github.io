@@ -15,16 +15,6 @@ body {
 	height: 100%;
 }
 
-header {
-	background-color: #133e7c;
-	color: white;
-	position: fixed;	
-	width: 100%;
-	top: 0px;
-	right: 0px;
-	height: 19vh;
-}
-
 .box {
 	background-color: #091833;
 	margin: 20px;
@@ -68,8 +58,19 @@ h1.category {
 
 /* HEADER */
 
+header {
+	background-color: #133e7c;
+	color: white;
+	position: fixed;	
+	width: 100%;
+	top: 0px;
+	right: 0px;
+	height: 19vh;
+}
+
 .header {
 	height: 13vh;
+	box-shadow: 10px 20px 30px #ea00d9;
 }
 
 .nav {
