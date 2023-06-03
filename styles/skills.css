@@ -1,0 +1,21 @@
+.skills {
+	width: auto;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.skills td {
+	vertical-align: center;
+	text-align: left;
+	padding: 30px;
+	padding-left: 100px;
+}
+
+.logo {
+	width: 105px;
+}
+
+.skills td img {
+	height: 100px;
+}

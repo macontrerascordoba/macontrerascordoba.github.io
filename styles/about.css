@@ -1,0 +1,36 @@
+.about {
+	margin: 12px;
+	width: auto;
+}
+
+.about td {
+	width: 50%;
+}
+
+.photo {
+	text-align: center;
+}
+
+.photo img {
+	border-radius: 100%;
+	height: 15vw;
+}
+
+.name {
+	vertical-align: bottom;
+}
+
+tr.position {
+	height: 0px;
+}
+
+td.position {
+	vertical-align: top;
+	color: #aaa;
+}
+
+.description {
+	font-size: 2vw;
+	padding-right: 100px;
+	color: #aaa;
+}
