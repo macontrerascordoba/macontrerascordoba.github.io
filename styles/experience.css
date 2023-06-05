@@ -1,0 +1,25 @@
+.experience {
+    width: 50%;
+    height: 600px;
+    justify-content: flex-start;
+}
+
+/* Change width of text bubble */
+.experience .bubble {
+    width: 180px;
+}
+
+/* Change position of left bubbles' arrow */
+.experience .container {
+    width: 240px;
+}
+
+/* Change position of white line */
+.experience .timeline::after {
+    left: 368px;
+}
+
+/* Change position of right bubbles */
+.experience .right {
+    left: 370px;
+}

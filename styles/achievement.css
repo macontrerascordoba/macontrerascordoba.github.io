@@ -1,0 +1,24 @@
+.achievement {
+    width: 50%;
+    height: 600px;
+}
+
+/* Change width of text bubble */
+.achievement .bubble {
+    width: 210px;
+}
+
+/* Change position of left bubbles' arrow */
+.achievement .container {
+    width: 270px;
+}
+
+/* Change position of white line */
+.achievement .timeline::after {
+    left: 397px;
+}
+
+/* Change position of right bubbles */
+.achievement .right {
+    left: 399px;
+}

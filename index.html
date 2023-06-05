@@ -12,256 +12,183 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/skills.css">
+    <link rel="stylesheet" href="styles/experience.css">
+    <link rel="stylesheet" href="styles/timeline.css">
+    <link rel="stylesheet" href="styles/achievement.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styels/socials.css">
 </head>
 <body>
 
     <header>
         <div class="box header">
-            <table>
-                <tr>
-                    <td>
-                        <div class="title neon glowNeon">
-                            <a href="#"><h1>My Portfolio</h1></a>
-                        </div>
-                    </td>
-                    <td>
-                        <nav class="nav neon pinkNeon">
-                            <a href="#skillsID">Skills</a>
-                            <a href="#experienceID">Experience</a>
-                            <a href="#achievementsID">Achievements</a>
-                            <a href="#hobbiesID">Hobbies</a>
-                            <a href="#socialsID">Socials</a>
-                            <a href="#contactID">Contact</a>
-                        </nav>
-                    </td>
-                </tr>
-            </table>
-            
+            <div class="title neon glowNeon">
+                <a href="#"><h1>My Portfolio</h1></a>
+            </div>
+            <nav class="nav neon pinkNeon">
+                <a href="#skillsID">Skills</a>
+                <a href="#experienceID">Experience</a>
+                <a href="#contactID">Contact</a>
+            </nav>
         </div>
     </header>
 
     <!-- ABOUT -->
     <main>
         <div class="box about">
-            <table>
-                <tr>
-                    <th colspan="2">
-                        <h2 class="category neon pinkNeon">About Me</h2>
-                    </th>
-                </tr>
-                <tr>
-                    <td rowspan="3" class="photo">
-                        <figure><img class="imgNeon" src="images/photo.png" alt="Profile Photo"></figure>
-                    </td>
-                    <td class="text name">
-                        Miguel Angel Contreras Cordoba
-                    </td>
-                </tr>
-                <tr class="position">
-                    <td class="text position">
-                        Software Engineer
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text description">
-                        I'm a young developer who is looking to use his knowledge and learn new things
-                    </td>
-                </tr>
-            </table>
+            <h2 class="category neon pinkNeon">About Me</h2>
+            <div class="content">
+                <figure class="photo"><img class="imgNeon" src="images/photo.png" alt="Profile Photo"></figure>
+                <div class="text">
+                    <p>Miguel Angel Contreras Cordoba</p>
+                    <p class="description">Software Engineer</p>
+                    <p class="description">I'm a young developer from Spain who is looking to use his knowledge and learn new things</p>
+                </div>
+            </div>
         </div>
 
         <!-- SKILLS -->
         <a class="anchor" id="skillsID"></a>
         <div class="box skills separation">
-            <table>
-                <tr>
-                    <th>
-                        <h2 class="category neon pinkNeon">Skills</h2>
-                    </th>
-                </tr>
-                <tr>
-                    <td class="logo">
-                        <figure><img src="images/python.png" alt="Python"></figure>
-                    </td>
-                    <td>
-                        <div class="progressbar">
-                            <div class="progress80"></div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="logo">
-                        <figure><img src="images/c.png" alt="C"></figure>
-                    </td>
-                    <td>
-                        <div class="progressbar">
-                            <div class="progress50"></div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="logo">
-                        <figure><img src="images/c++.png" alt="C++"></figure>
-                    </td>
-                    <td>
-                        <div class="progressbar">
-                            <div class="progress60"></div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="logo">
-                        <figure><img src="images/csharp.png" alt="C#"></figure>
-                    </td>
-                    <td>
-                        <div class="progressbar">
-                            <div class="progress40"></div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="logo">
-                        <figure><img src="images/java.png" alt="Java"></figure>
-                    </td>
-                    <td>
-                        <div class="progressbar">
-                            <div class="progress70"></div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="logo">
-                        <figure><img src="images/php.png" alt="PHP"></figure>
-                    </td>
-                    <td>
-                        <div class="progressbar">
-                            <div class="progress40"></div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="logo">
-                        <figure><img src="images/bash.png" alt="Bash"></figure>
-                    </td>
-                    <td>
-                        <div class="progressbar">
-                            <div class="progress50"></div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="logo">
-                        <figure><img src="images/assembly.png" alt="Assembly"></figure>
-                    </td>
-                    <td>
-                        <div class="progressbar">
-                            <div class="progress20"></div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="logo">
-                        <figure><img src="images/sql.png" alt="SQL"></figure>
-                    </td>
-                    <td>
-                        <div class="progressbar">
-                            <div class="progress50"></div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="logo">
-                        <figure><img src="images/js.png" alt="JavaScript"></figure>
-                    </td>
-                    <td>
-                        <div class="progressbar">
-                            <div class="progress60"></div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="logo">
-                        <figure><img src="images/html.png" alt="HTML"></figure>
-                    </td>
-                    <td>
-                        <div class="progressbar">
-                            <div class="progress80"></div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="logo">
-                        <figure><img src="images/css.png" alt="CSS"></figure>
-                    </td>
-                    <td>
-                        <div class="progressbar">
-                            <div class="progress40"></div>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-        </div>
+            <h2 class="category neon pinkNeon">Skills</h2>
+            <div class="content">
+                <figure class="logo"><img src="images/python.png" alt="Python"></figure>
+                <div class="progressbar">
+                    <div class="progress80"></div>
+                </div>
+            </div>
+            <div class="content">
+                <figure class="logo"><img src="images/c.png" alt="C"></figure>
+                <div class="progressbar">
+                    <div class="progress50"></div>
+                </div>
+            </div>
+            <div class="content">
+                <figure class="logo"><img src="images/c++.png" alt="C++"></figure>
+                <div class="progressbar">
+                    <div class="progress60"></div>
+                </div>
+            </div>
+            <div class="content">
+                <figure class="logo"><img src="images/csharp.png" alt="C#"></figure>
+                <div class="progressbar">
+                    <div class="progress40"></div>
+                </div>
+            </div>
+            <div class="content">
+                <figure class="logo"><img src="images/java.png" alt="Java"></figure>
+                <div class="progressbar">
+                    <div class="progress70"></div>
+                </div>
+            </div>
+            <div class="content">
+                <figure class="logo"><img src="images/php.png" alt="PHP"></figure>
+                <div class="progressbar">
+                    <div class="progress40"></div>
+                </div>
+            </div>
+            <div class="content">
+                <figure class="logo"><img src="images/bash.png" alt="Bash"></figure>
+                <div class="progressbar">
+                    <div class="progress50"></div>
+                </div>
+            </div>
+            <div class="content">
+                <figure class="logo"><img src="images/assembly.png" alt="Assembly"></figure>
+                <div class="progressbar">
+                    <div class="progress20"></div>
+                </div>
+            </div>
+            <div class="content">
+                <figure class="logo"><img src="images/sql.png" alt="SQL"></figure>
+                <div class="progressbar">
+                    <div class="progress50"></div>
+                </div>
+            </div>
+            <div class="content">
+                <figure class="logo"><img src="images/js.png" alt="JavaScript"></figure>
+                <div class="progressbar">
+                    <div class="progress60"></div>
+                </div>
+            </div>
+            <div class="content">
+                <figure class="logo"><img src="images/html.png" alt="HTML"></figure>
+                <div class="progressbar">
+                    <div class="progress80"></div>
+                </div>
+            </div>
+            <div class="content">
+                <figure class="logo"><img src="images/css.png" alt="CSS"></figure>
+                <div class="progressbar">
+                    <div class="progress40"></div>
+                </div>
+            </div>
+            </div>
+
 
         <!-- EXPERIENCE -->
         <a class="anchor" id="experienceID"></a>
-        <div class="box skills separation">
-            <table>
-                <tr>
-                    <th>
-                        <h2 class="category neon pinkNeon">Experience</h2>
-                    </th>
-                </tr>
-            </table>
-        </div>
+        <div class="b2b">
+            <div class="box experience separation">
+                <h2 class="category neon pinkNeon">Experience</h2>
+                <div class="timeline">
+                    <div class="container left">
+                        <div class="bubble">
+                            <h2>May 2022 - Jan 2023</h2>
+                            <p>Procono S.A.</p>
+                        </div>
+                    </div>
+                    <div class="container right">
+                        <div class="bubble">
+                            <h2>May 2023 - Now</h2>
+                            <p>Empathy Co</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        <!-- ACHIEVEMENTS -->
-        <a class="anchor" id="achievementsID"></a>
-        <div class="box skills separation">
-            <table>
-                <tr>
-                    <th>
-                        <h2 class="category neon pinkNeon">Achievements</h2>
-                    </th>
-                </tr>
-            </table>
-        </div>
-
-
-        <!-- HOBBIES -->
-        <a class="anchor" id="hobbiesID"></a>
-        <div class="box skills separation">
-            <table>
-                <tr>
-                    <th>
-                        <h2 class="category neon pinkNeon">Hobbies</h2>
-                    </th>
-                </tr>
-            </table>
-        </div>
-
-        <!-- SOCIALS -->
-        <a class="anchor" id="socialsID"></a>
-        <div class="box skills separation">
-            <table>
-                <tr>
-                    <th>
-                        <h2 class="category neon pinkNeon">Socials</h2>
-                    </th>
-                </tr>
-            </table>
+            <div class="box achievement separation">
+                <h2 class="category neon pinkNeon">Achievements</h2>
+                <div class="timeline">
+                    <div class="container left">
+                        <div class="bubble">
+                            <h2>Sep 17, 2019</h2>
+                            <p>Global Management Challenge</p>
+                            <p>Andalusian 3rd Place</p>
+                        </div>
+                    </div>
+                    <div class="container right">
+                        <div class="bubble">
+                            <h2>Nov 3, 2021</h2>
+                            <p>Nacional Cyber League</p>
+                            <p>Semifinalist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- CONTACT -->
         <a class="anchor" id="contactID"></a>
-        <div class="box skills separation">
-            <table>
-                <tr>
-                    <th>
-                        <h2 class="category neon pinkNeon">Contact</h2>
-                    </th>
-                </tr>
-            </table>
+        <div class="b2b">
+            <div class="box contact separation">
+                <h2 class="category neon pinkNeon">Contact</h2>
+                <div class="form">
+                    <form>
+                        <input type="text" name="Name" id="name" placeholder="Name..."><br>
+                        <input type="email" name="Email" id="email" placeholder="Email..."><br>
+                        <textarea name="Message" id="message" cols="30" rows="10" placeholder="  Message..."></textarea><br>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+            </div>
+
+            <div class="box socials separation">
+                <h2 class="category neon pinkNeon">Socials</h2>
+                <div></div>
+            </div>
         </div>
+        
 
         <!-- BOTTOM -->
         <div class="separation"></div>
