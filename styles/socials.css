@@ -1,4 +1,16 @@
 .socials {
     width: 50%;
-    height: 600px;
+    height: 565px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logos {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.logos img {
+    height: 200px;
 }

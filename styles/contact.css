@@ -1,5 +1,11 @@
-.form {
+.contact {
     width: 50%;
+    height: 565px;
+}
+
+.form {
+    display: flex;
+    margin-left: 90px;
 }
 
 form input {
