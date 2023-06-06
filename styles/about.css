@@ -22,8 +22,12 @@
 	vertical-align: bottom;
 }
 
+.subtitle {
+	color: var(--lightGrey);
+}
+
 .description {
 	font-size: 1.5vw;
 	padding-right: 100px;
-	color: #aaa;
+	color: var(--lightGrey);
 }

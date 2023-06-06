@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
 
+    <link rel="stylesheet" href="styles/variables.css">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/neon.css">
     <link rel="stylesheet" href="styles/progress.css">
@@ -40,8 +41,8 @@
             <div class="content">
                 <figure class="photo"><img class="imgNeon" src="images/photo.png" alt="Profile Photo"></figure>
                 <div class="text">
-                    <p>Miguel Angel Contreras Cordoba</p>
-                    <p class="description">Software Engineer</p>
+                    <h3>Miguel Angel Contreras Cordoba</h3>
+                    <h4 class="subtitle">Software Engineer</h4>
                     <p class="description">I'm a young developer from Spain who is looking to use his knowledge and learn new things</p>
                 </div>
             </div>
@@ -175,8 +176,11 @@
                 <h2 class="category neon pinkNeon">Contact</h2>
                 <div class="form">
                     <form>
+                        <label for="name"></label>
                         <input type="text" name="Name" id="name" placeholder="Name..."><br>
+                        <label for="email"></label>
                         <input type="email" name="Email" id="email" placeholder="Email..."><br>
+                        <label for="message"></label>
                         <textarea name="Message" id="message" cols="30" rows="10" placeholder="  Message..."></textarea><br>
                         <input type="submit" value="Send">
                     </form>
@@ -189,7 +193,6 @@
                     <a href="https://github.com/macontrerascordoba" target="_blank"><img src="images/github.png" alt="Github"></a>
                 </div>
             </div>
-        </div>
         </div>
         
 

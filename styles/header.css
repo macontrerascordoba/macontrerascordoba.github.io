@@ -1,5 +1,5 @@
 header {
-	background-color: #133e7c;
+	background-color: var(--blue);
 	color: white;
 	position: fixed;	
 	width: 100%;
@@ -11,7 +11,7 @@ header {
 
 .header {
 	height: 7vh;
-	box-shadow: 10px 20px 30px #ea00d9;
+	box-shadow: 10px 20px 30px var(--pink);
 }
 
 .nav {
@@ -36,7 +36,7 @@ a {
 }
 
 a:hover {
-	color: #711c91;
+	color: var(--darkPink);
 }
 
 a.anchor {

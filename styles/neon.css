@@ -2,7 +2,7 @@
 
 .neon {
     font-family: "Warnes";
-	color: #fff;
+	color: white;
 }
 
 .glowNeon {
@@ -11,32 +11,32 @@
 
 @keyframes glow {
 	from {
-	  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ea00d9, 0 0 20px #ea00d9, 0 0 25px #ea00d9, 0 0 30px #ea00d9, 0 0 35px #ea00d9;
+	  text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px var(--pink), 0 0 20px var(--pink), 0 0 25px var(--pink), 0 0 30px var(--pink), 0 0 35px var(--pink);
 	}
 	to {
-	  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ea00d9, 0 0 40px #ea00d9, 0 0 50px #ea00d9, 0 0 60px #ea00d9, 0 0 70px #ea00d9;
+	  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px var(--pink), 0 0 40px var(--pink), 0 0 50px var(--pink), 0 0 60px var(--pink), 0 0 70px var(--pink);
 	}
 }
 
 
 .pinkNeon {
 	text-shadow:
-		0 0 7px #fff,
-		0 0 10px #fff,
-		0 0 21px #fff,
-		0 0 42px #ea00d9,
-		0 0 82px #ea00d9,
-		0 0 92px #ea00d9,
-		0 0 102px #ea00d9,
-		0 0 151px #ea00d9;
+		0 0 7px white,
+		0 0 10px white,
+		0 0 21px white,
+		0 0 42px var(--pink),
+		0 0 82px var(--pink),
+		0 0 92px var(--pink),
+		0 0 102px var(--pink),
+		0 0 151px var(--pink);
 }
 
 .imgNeon {
     box-shadow:
-        0 0 7px #fff,
-        0 0 10px #fff,
-        0 0 21px #fff,
-        0 0 42px #ea00d9,
-        0 0 82px #ea00d9,
-        0 0 92px #ea00d9;
+        0 0 7px white,
+        0 0 10px white,
+        0 0 21px white,
+        0 0 42px var(--pink),
+        0 0 82px var(--pink),
+        0 0 92px var(--pink);
 }

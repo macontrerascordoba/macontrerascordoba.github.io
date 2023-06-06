@@ -1,7 +1,7 @@
 
 .progressbar {
 	width: 75%;
-	background-color: #711c91;
+	background-color: var(--darkPink);
 	border-radius: 13px;
 	/* (height of inner div) / 2 + padding */
 	padding: 5px;
@@ -11,63 +11,63 @@
 }
 
 .progress10 {
-	background-color: #ea00d9;
+	background-color: var(--pink);
 	width: 10%;
 	height: 1.3vh;
 	border-radius: 10px;
 }
 
 .progress20 {
-	background-color: #ea00d9;
+	background-color: var(--pink);
 	width: 20%;
 	height: 1.3vh;
 	border-radius: 10px;
 }
 
 .progress30 {
-	background-color: #ea00d9;
+	background-color: var(--pink);
 	width: 30%;
 	height: 1.3vh;
 	border-radius: 10px;
 }
 
 .progress40 {
-	background-color: #ea00d9;
+	background-color: var(--pink);
 	width: 40%;
 	height: 1.3vh;
 	border-radius: 10px;
 }
 
 .progress50 {
-	background-color: #ea00d9;
+	background-color: var(--pink);
 	width: 50%;
 	height: 1.3vh;
 	border-radius: 10px;
 }
 
 .progress60 {
-	background-color: #ea00d9;
+	background-color: var(--pink);
 	width: 60%;
 	height: 1.3vh;
 	border-radius: 10px;
 }
 
 .progress70 {
-	background-color: #ea00d9;
+	background-color: var(--pink);
 	width: 70%;
 	height: 1.3vh;
 	border-radius: 10px;
 }
 
 .progress80 {
-	background-color: #ea00d9;
+	background-color: var(--pink);
 	width: 80%;
 	height: 1.3vh;
 	border-radius: 10px;
 }
 
 .progress90 {
-	background-color: #ea00d9;
+	background-color: var(--pink);
 	width: 90%;
 	height: 1.3vh;
 	border-radius: 10px;
